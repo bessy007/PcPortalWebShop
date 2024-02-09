@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PCPortal</title>    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ContactP.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PCPortal.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="navbar">
+            <img class="logo" src="~/logo.png" alt="Logo" srcset="">
+          
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="admin-top-left-topnav">
+                   <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                   <a asp-area="" asp-controller="Contact" asp-action="Contact">Contact</a>
+                    <a asp-area="" asp-controller="Contact" asp-action="Index">Messages</a>
+                   <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+                   <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">
+                          Products
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                      <div class="dropdown-content" id="myDropdown">
+                         <a asp-controller="Product" asp-action="Add">Add New Product</a>
+                         <a asp-controller="Product" asp-action="Index">Delete Product</a>
+
+                      </div>
+                         
+                   </div>
+                    <div class="logoutbtn">
+                        <a class="logoutt" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                    </div>
+
+                       
+                       
+                </div>
+             }
+            else if (User.IsInRole("User"))
+            {
+                <div class="user-top-left-topnav">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-area="" asp-controller="Contact" asp-action="Contact">Contact</a>
+                    <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+                </div>
+                <div class="accbtn">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                </div>
+            }
+            else
+            {
+                <div class="top-left-topnav">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-area="" asp-controller="Contact" asp-action="Contact">Contact</a>
+                    <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+                </div>
+                <div class="accbtn">
+                    <a class="loginbtnn" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                    <a asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                </div>
+                
+            }
+        </div>
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_Notification" />
+            @RenderBody()
+        </main>
+    </div>
+
+ 
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

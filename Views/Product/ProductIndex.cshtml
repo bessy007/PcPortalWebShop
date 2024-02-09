@@ -1,0 +1,87 @@
+﻿@model Product
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+<div class="sidenav">
+    <a asp-controller="Product" asp-action="ComputerPartsIndex">Computer Parts</a>
+    <a asp-controller="Product" asp-action="ComputerSystemsIndex">Computer Systems</a>
+    <a asp-controller="Product" asp-action="ComputerAccessoriesIndex">Computer Accessories</a>
+    <a asp-controller="Product" asp-action="LaptopsAndAccessoriesIndex">Laptops and accessories</a>
+    <a asp-controller="Product" asp-action="CablesIndex">Cables</a>
+    <a asp-controller="Product" asp-action="GamingChairsIndex">Gaming chairs</a>
+</div>
+
+
+<div class="product-container">
+    
+    <h2 class="h2-product-index">@Model.title</h2>
+    <div class="product-image-div">
+        <img class="product-img" src="/product-photos/@Model.ImgName()" />
+    </div>
+    <div class="price-container">
+        <p class="product-price"><b>@Model.price den</b></p>
+        <p class="product-mark"> <b>Brand:</b> @Model.manufacturer </p>
+        <p class="product-id"><b>Product ID: </b>@Model.Id</p>
+    </div>
+    
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="description-btn-container">
+                <button class="descriptionbtn" onclick="showDescriptionForm('@Model.Id')">Add Description</button>
+            </div>
+        }
+        else
+        {
+            <div class="description-btn-container">
+                <button hidden onclick="showDescriptionForm('@Model.Id')">Add Description</button>
+            </div>
+        }
+
+    <div id="descriptionForm-@Model.Id" class="description-form" style="display: none;">
+            <label for="descriptionInput"></label>
+            <textarea id="descriptionInput-@Model.Id" rows="3"></textarea>
+            <button onclick="submitDescription('@Model.Id')">Submit</button>
+        </div>
+    <div class="description">
+        <p class="description">Description: @Model.Description</p>
+    </div>
+</div>
+    
+ 
+
+<script>
+
+    function showDescriptionForm(productId) {
+        var form = document.getElementById('descriptionForm-' + productId);
+        form.style.display = 'block';
+    }
+
+    function submitDescription(productId) {
+        var description = document.getElementById('descriptionInput-' + productId).value;
+
+        submitDescriptionToServer(productId, description);
+
+        var form = document.getElementById('descriptionForm-' + productId);
+        form.style.display = 'none';
+    }
+
+    function submitDescriptionToServer(productId, description) {
+
+        fetch('/Product/AddDescription', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: 'productId=' + encodeURIComponent(productId) + '&description=' + encodeURIComponent(description),
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+    }
+
+</script>

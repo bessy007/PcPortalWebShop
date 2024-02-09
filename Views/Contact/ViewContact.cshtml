@@ -1,0 +1,63 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Message";
+}
+
+<div class="ffbox">
+    <div class="ffbox1">
+        <h1>@ViewData["Title"]</h1>
+        <form method="post" asp-action="DeletePOST">
+            <input asp-for="Id" hidden />
+
+            <label asp-for="FullName">
+                <i class="fa fa-solid fa-user"
+                   style="margin: 2px;">
+                </i> Full Name:
+            </label>
+            <input asp-for="FullName" disabled type="text"
+                   id="fullName"
+                   name="FullName" required>
+            <span asp-validation-for="FullName"></span>
+
+            <label asp-for="EmailAddress">
+                <i class="fa fa-solid fa-envelope"
+                   style="margin: 2px;">
+                </i>
+                Email Address:
+            </label>
+            <input asp-for="EmailAddress" disabled type="email"
+                   id="email"
+                   name="EmailAddress" required>
+            <span asp-validation-for="EmailAddress"></span>
+
+            <label asp-for="PhoneNumber">
+                <i class=" fa fa-solid fa-phone"
+                   style="margin: 2px;">
+                </i>
+                Contact No:
+            </label>
+            <input asp-for="PhoneNumber" disabled type="tel"
+                   id="mobile"
+                   name="PhoneNumber" required>
+            <span asp-validation-for="PhoneNumber"></span>
+
+            <label asp-for="Message">
+                <i class=" fa fa-solid fa-comment"
+                   style="margin: 2px;">
+                </i>
+                Write Message:
+            </label>
+            <textarea asp-for="Message" disabled id="msg"
+                      name="Message"
+                      rows="5" required> 
+                </textarea>
+            <span asp-validation-for="Message"></span>
+            <button type="submit" class="btn btn-primary" style="width:150px">
+                Delete
+            </button>
+            <a asp-controller="Contact" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                Back to List
+            </a>
+        </form>
+    </div>
+</div>

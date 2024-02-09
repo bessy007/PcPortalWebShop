@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGrG2X7LIiEq7IYNcpHdSHgAAAAACAAAAAAAQZgAAAAEAACAAAACEHi9W9+/ogDH4AqeLC02Ui/rBrMvGT4led/MqIJUQeAAAAAAOgAAAAAIAACAAAADfazmLOd18wfAHrhC9LoWJcYf8hdX0P6uzAhhLrfByDYAAAABYeJDqllpq1318YTB4tVA5zlVRVAd3bHRiRzZN+bVk0lDR95AUx7l4g+mWV3fWjV1Dl96AQL+nVNn4feq0BOIBHEptNPlMqhgHsnrhy8KIo9OQ+p8x4TILb6kcCbd8qa7rOxDymcsHOIfND5ZGRdIqFkulJuPIY3biLUx1rjPbKUAAAAADc24W7/PkqzslRxGBQBEKPOVqfo8ayeOsbuhFBDiRBmXoeT2FSQscCXjFUFBhk4IpFEEAZ0Zmo8dM/0nj01yM</EncryptedPassword>
+    <History>True|2024-02-09T02:37:24.9352234Z;False|2024-02-09T03:34:47.0941243+01:00;False|2024-02-09T03:22:27.5257547+01:00;False|2024-02-09T03:20:47.7708142+01:00;False|2024-02-09T03:16:55.6740498+01:00;False|2024-02-09T03:12:26.8279999+01:00;False|2024-02-09T03:09:41.7015763+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:webshopproject.database.windows.net,1433%3bInitial Catalog=webshopdb%3bPersist Security Info=False%3bUser ID=admin_sql%3bPassword=Besfort0073%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PCPortal.Data.ApplicationDbContext">
+      <Value>Server=tcp:webshopproject.database.windows.net,1433%3bInitial Catalog=webshopdb%3bPersist Security Info=False%3bUser ID=admin_sql%3bPassword=Besfort0073%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

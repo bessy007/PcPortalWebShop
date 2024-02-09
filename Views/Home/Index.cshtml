@@ -1,0 +1,102 @@
+﻿@{
+   
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="mainbox">
+
+        <div class="verticalnav">
+          <ul>
+            <li><a class="parts" asp-controller="Product" asp-action="ComputerPartsIndex">Computer Parts</a></li>
+            <li><a class="systems" asp-controller="Product" asp-action="ComputerSystemsIndex">Computer Systems</a></li>
+            <li><a class="accessories" asp-controller="Product" asp-action="ComputerAccessoriesIndex">Computer Accessories</a></li>
+            <li><a class="laptops" asp-controller="Product" asp-action="LaptopsAndAccessoriesIndex">Laptops and accessories</a></li>
+            <li><a class="cables" asp-controller="Product" asp-action="CablesIndex">Cables</a></li>
+            <li class="lastcolumn"><a class="chairs" asp-controller="Product" asp-action="GamingChairsIndex">Gaming chairs</a></li>
+          </ul>
+        </div class=" maintext">
+        <img class="mainlogo" src="~/mainlogo.png" alt="">
+</div>
+<div class="mainbox">
+
+    <div class="maintext">
+        <img class="mainlogo" src="~/mainlogo.png" alt="">
+    </div>
+
+    <div class="welcomee">
+        <p class="welcome">
+            Welcome to Our Awesome Website! Explore our collection of computer parts, accessories, and more.
+        </p>
+    </div>
+
+    <div class="main-contanier">
+       <div class="slideshow-container">
+        <!-- Product Slides -->
+        <div class="mySlides">
+            <img class="pcc1" src="~/product-photos/Intel Core i3-12100F.jpg" alt="">
+            <p class="teksti1">
+                <a asp-controller="Product" asp-action="ProductIndex" asp-route-id="1">
+                Intel Core i3-12100F
+                </a> 
+            </p>
+            <p class="oldprice">
+
+            </p>
+            <p class="newprice">
+                6480
+            </p>
+            
+            <p class="shipping">
+                Free Shipping
+            </p>
+        </div>
+
+        <div class="mySlides">
+            <img class="pcc1" src="~/product-photos/MSI G322CQP LED Gaming VA 1ms, 170Hz, WQHD, HDMIx2, DP, Curved, Frameless, Tilt, Height.jpg" alt="">
+            <p class="teksti1">
+                <a asp-controller="Product" asp-action="ProductIndex" asp-route-id="27">
+                MSI G322CQP LED Gaming VA 1ms, 170Hz, WQHD, HDMIx2, DP, Curved, Frameless, Tilt, Height
+                </a> 
+            </p>
+            <p class="oldprice">
+
+            </p>
+            <p class="newprice">
+                20980
+            </p>
+            <p class="shipping">
+                Free Shipping
+            </p>
+        </div>
+
+        <div class="mySlides">
+            <img class="pcc1" src="~/product-photos/Arozzi Verona Signature Soft Fabric Red Logo.jpg" alt="">
+            <p class="teksti1">
+                <a asp-controller="Product" asp-action="ProductIndex" asp-route-id="52">
+                Arozzi Verona Signature Soft Fabric Red Logo
+                </a> 
+            </p>
+            <p class="oldprice">
+
+            </p>
+            <p class="newprice">
+                18980
+            </p>
+            <p class="shipping">
+                Free Shipping
+            </p>
+        </div>
+        
+
+        <!-- Navigation Dots -->
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    </div>
+     
+</div>
+        
+       

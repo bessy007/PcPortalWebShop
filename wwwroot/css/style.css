@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Salsa&family=Sevillana&display=swap');
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+div{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.logo {
+  position: sticky;
+  width: 200px;
+  top: 0;
+  margin-left: 0px;
+  z-index: 100;
+  display: inline-block;
+  margin-right: 0;
+  float: left;
+}
+  
+ .topnav{
+  position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+    vertical-align: top;
+    z-index: 99;
+    margin-top: 0px;
+}
+ 
+ 
+   a {
+    float: left;
+    width: 100px;
+    text-align: center;
+    color: white;
+    padding: 15px 10px;
+    font-weight: bold;
+  }
+  .as{
+    float: left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   a:hover {
+    background-color: #111;
+  }
+  a:active {
+    background-color: #04AA6D;
+  }
+  .welcomee{
+    padding: 50px 60px;
+  }
+  p.welcome{
+    text-align: center;
+    text-shadow: #04AA6D;
+    font-size: 30px;
+    padding: 10px;
+   border-style: dashed;
+   border-radius: 10px;
+   border-color: #333;
+   border-width: 5px;
+   
+  }
+
+  .mainbox{
+    border-style: solid;
+    border-color: #ebe4e4;    
+    border-radius: 8px;
+    padding: 45px;
+    margin-top: 80px;
+
+    
+  }
+
+
+.mainlogo{
+  margin-left: 50px;
+  border-radius: 30px;
+  height: 150px;
+  padding: 20px;
+  background-color:rgb(104, 174, 240);
+
+}
+.verticalnav{
+  margin-left: 0px;
+ 
+  ul {
+    
+    list-style-type: none;
+    line-height: 15px;
+    margin: 0;
+    width: 300px;
+
+    color: rgb(170, 168, 168);
+  }
+  
+  li a {
+    border-color: #9e9e9e;
+    border-style: solid;
+    border-radius: 5px;
+    border-bottom: none;
+    
+    text-align: left;
+    margin-left: 0px;
+    display: block;
+    color: #9e9999;
+    font-weight: bold;
+    padding: 8px 70px;
+    padding-left: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+
+  }
+  
+ 
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c2e2ff;
+    color: rgb(74, 123, 230);
+  }
+
+}
+.p-hot{
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 80px;
+  
+
+}
+.main-contanier{
+  border: 10px solid #161414;
+  display: flex;
+}
+.container1{
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #111;
+  width: 350px;
+  height: 400px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-left: 0px;
+  display: inline-block;
+  }
+  
+.pc1{
+  height: 220px;
+  margin-left: 45px;
+}
+.teksti1{
+  margin-top: 2px;
+  line-height: 15px; 
+  font-size: 14px;
+  margin-left: 15px;
+  color: #2e2828;
+  font-family: Overlock;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.oldprice{
+  font-size: 12px;
+  font-weight: lighter;
+  color: #867c7c;
+  font-family: Overlock;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.newprice{
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: salsa;
+margin-top: 0px;
+margin-left: 14px;
+margin-bottom: 0px;
+
+}
+.teksti1:hover{
+  color: #0e5abd;
+}
+.sale-container{
+ 
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+  background-color: rgb(184, 51, 51);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 0px;
+  width: 50px;
+  margin-left: 10px;
+
+}
+.shipping{
+  font-size: 10px;
+  margin: 0px 10px 0px;
+}
+.cart{
+  background-color: #ff7d04;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 4px;
+}
+.testcontainer{
+  width: 400px;
+  display: inline-block;
+  float: left;
+}
+.test{
+  width: 200px;
+}
+
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 90%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}

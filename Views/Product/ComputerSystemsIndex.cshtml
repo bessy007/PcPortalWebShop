@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "ComputerSystemsIndex";
+}
+
+@foreach (var obj in Model)
+{
+    if (obj.category == "Computer Systems")
+    {
+        <div class="container1">
+            <img class="pc1" src="~/product-photos/@obj.ImgName()" alt="">
+            <p class="teksti1">
+                <a asp-controller="Product" asp-action="ProductIndex" asp-route-id="@obj.Id">
+                    @obj.title
+                </a>
+            </p>
+            <p class="oldprice">
+
+            </p>
+            <p class="newprice">
+                @obj.price
+            </p>
+            <div class="sale-container">
+            </div>
+            <p class="shipping">
+                Free Shipping
+            </p>
+        </div>
+    }
+}

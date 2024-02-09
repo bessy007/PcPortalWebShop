@@ -1,0 +1,81 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/ContactP.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="ffbox">
+        <div class="ffbox1">
+            <h1>@ViewData["Title"]</h1>
+            <form asp-action="Contact" asp-controller="Contact" method="post">
+                @Html.AntiForgeryToken()
+                <label asp-for="FullName">
+                    <i class="fa fa-solid fa-user"
+                       style="margin: 2px;">
+                    </i> Full Name:
+                </label>
+                <input asp-for="FullName" type="text"
+                       id="fullName"
+                       name="FullName" required>
+                <span asp-validation-for="FullName"></span>
+
+                <label asp-for="EmailAddress">
+                    <i class="fa fa-solid fa-envelope"
+                       style="margin: 2px;">
+                    </i>
+                    Email Address:
+                </label>
+                <input asp-for="EmailAddress" type="email"
+                       id="email"
+                       name="EmailAddress" required>
+                <span asp-validation-for="EmailAddress"></span>
+
+                <label asp-for="PhoneNumber">
+                    <i class=" fa fa-solid fa-phone"
+                       style="margin: 2px;">
+                    </i>
+                    Contact No:
+                </label>
+                <input asp-for="PhoneNumber" type="tel"
+                       id="mobile"
+                       name="PhoneNumber" required>
+                <span asp-validation-for="PhoneNumber"></span>
+
+                <label asp-for="Message">
+                    <i class=" fa fa-solid fa-comment"
+                       style="margin: 2px;">
+                    </i>
+                    Write Message:
+                </label>
+                <textarea asp-for="Message" id="msg"
+                          name="Message"
+                          rows="5" required> 
+                </textarea>
+                <span asp-validation-for="Message"></span>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+        <div class="map-div">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.6317930735327!2d20.95815477500428!3d41.98671465860839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353fa781c988b49%3A0x72066ce3777a2e2c!2sSouth%20East%20European%20University!5e0!3m2!1sen!2smk!4v1705944539762!5m2!1sen!2smk"
+                    width="500"
+                    height="95%"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,473 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PCPortal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PCPortal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\css\\ContactP.css",
+      "PackagePath": "staticwebassets\\css\\ContactP.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\mainlogo.png",
+      "PackagePath": "staticwebassets\\mainlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\ABS Flux Ruby Gaming PC - Windows 11 - AMD Ryzen 7 5700X - GeForce RTX 4060.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\ABS Flux Ruby Gaming PC - Windows 11 - AMD Ryzen 7 5700X - GeForce RTX 4060.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\AMD Ryzen 5 5600X.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\AMD Ryzen 5 5600X.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\ATX Micro Case Thermaltake S100.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\ATX Micro Case Thermaltake S100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Apple 45W MagSafe 2 Adapter.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Apple 45W MagSafe 2 Adapter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Apple MacBook Pro M3 Octa Core.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Apple MacBook Pro M3 Octa Core.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Apple USB-C Charging Cable 2m.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Apple USB-C Charging Cable 2m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Apple Watch Magnetic Fast Charger to USB-C Cable 1m.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Apple Watch Magnetic Fast Charger to USB-C Cable 1m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Arozzi Enzo Woven Fabric Grey.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Arozzi Enzo Woven Fabric Grey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Arozzi Vernazza Supersoft Fabric Black.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Arozzi Vernazza Supersoft Fabric Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Arozzi Verona Signature Soft Fabric Red Logo.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Arozzi Verona Signature Soft Fabric Red Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\BenQ ZOWIE Gaming Gear ZA13-C Small Black.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\BenQ ZOWIE Gaming Gear ZA13-C Small Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Cable Serial ATA 3 Data w90 degree Metal Clips.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Cable Serial ATA 3 Data w90 degree Metal Clips.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Cable Stereo Plug 3,5mm to Stereo 3,5mm 5m audio.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Cable Stereo Plug 3,5mm to Stereo 3,5mm 5m audio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\DVI Video 1.8m Dual Link.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\DVI Video 1.8m Dual Link.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Dell Inspiron 7430 2in1 i5-1335U.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Dell Inspiron 7430 2in1 i5-1335U.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Dell PRO Slim Briefcase 15 PO1520CS Black.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Dell PRO Slim Briefcase 15 PO1520CS Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Fury Avenger XL Black White.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Fury Avenger XL Black White.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Genesis NITRO330 Black-Red.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Genesis NITRO330 Black-Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HDMI MM 10m v.2.0 4K with ethernet Cablexpert.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HDMI MM 10m v.2.0 4K with ethernet Cablexpert.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HP 250 G9 i3-1215U 8GB.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HP 250 G9 i3-1215U 8GB.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HP Envy 17 i7-1260P.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HP Envy 17 i7-1260P.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HP S1 4GB DDR4 2666MHz CL19.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HP S1 4GB DDR4 2666MHz CL19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HyperX Alloy Origins Core Mechanical TKL Gaming Aqua Switch.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HyperX Alloy Origins Core Mechanical TKL Gaming Aqua Switch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\HyperX Cloud III 7.1 Gaming Headset Black Red.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\HyperX Cloud III 7.1 Gaming Headset Black Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\IPASON - Gaming desktop - AMD Ryzen 5 5600G 6 core 3.9GHz - 16GB DDR4 3200MHz.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\IPASON - Gaming desktop - AMD Ryzen 5 5600G 6 core 3.9GHz - 16GB DDR4 3200MHz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Intel Core i3-12100F.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Intel Core i3-12100F.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\LAN Cable.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\LAN Cable.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Lenovo Gaming Desktop Legion T5 26AMR5 90RB002QUS Ryzen 5 5000 Series 5600G.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Lenovo Gaming Desktop Legion T5 26AMR5 90RB002QUS Ryzen 5 5000 Series 5600G.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Lenovo Gaming Desktop Legion T5 26IRB8 90UT0016US Intel Core i7 13th Gen.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Lenovo Gaming Desktop Legion T5 26IRB8 90UT0016US Intel Core i7 13th Gen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MB Gigabyte H610M S2H V2 DDR4 LGA1700.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MB Gigabyte H610M S2H V2 DDR4 LGA1700.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MSI G322CQP LED Gaming VA 1ms, 170Hz, WQHD, HDMIx2, DP, Curved, Frameless, Tilt, Height.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MSI G322CQP LED Gaming VA 1ms, 170Hz, WQHD, HDMIx2, DP, Curved, Frameless, Tilt, Height.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MSI Gaming Desktop Aegis R 13NUC7-477US Intel Core i7 13th Gen 13700F.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MSI Gaming Desktop Aegis R 13NUC7-477US Intel Core i7 13th Gen 13700F.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MSI Gaming Desktop Codex R 13NUC5-075US Intel Core i5 13th Gen 13400F.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MSI Gaming Desktop Codex R 13NUC5-075US Intel Core i5 13th Gen 13400F.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MSI GeForce RTX 4070 Ti VENTUS.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MSI GeForce RTX 4070 Ti VENTUS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\MXZ Gaming PC Desktop Computer, AMD Ryzen 5 4500 3.6GHz, GTX1660S.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\MXZ Gaming PC Desktop Computer, AMD Ryzen 5 4500 3.6GHz, GTX1660S.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\NSX GAMING PC - Ryzen 5 5600G - 16GB DDR4 3600 - 512Gb M2 NVME SSD.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\NSX GAMING PC - Ryzen 5 5600G - 16GB DDR4 3600 - 512Gb M2 NVME SSD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Notebook Battery Compatible for HP Probook 450 14.8V 2600Mah.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Notebook Battery Compatible for HP Probook 450 14.8V 2600Mah.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\PSU 1000W Corsair RMe V2 Series 80 Plus Gold.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\PSU 1000W Corsair RMe V2 Series 80 Plus Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Power Cord C13 1.8m.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Power Cord C13 1.8m.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Razer Huntsman V2 Analog Optical Switches Gaming RGB Chroma.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Razer Huntsman V2 Analog Optical Switches Gaming RGB Chroma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Razer Iskur X.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Razer Iskur X.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\SSD M.2 Corsair NVMe MP510 240GB PCIe.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\SSD M.2 Corsair NVMe MP510 240GB PCIe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Samsung LC27F398FWRXEN Curved 1800R VA Panel.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Samsung LC27F398FWRXEN Curved 1800R VA Panel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Sapphire AMD PULSE Radeon RX 7600.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Sapphire AMD PULSE Radeon RX 7600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\SteelSeries Arctis Nova 3 Gaming RGB Noise Cancelling Black.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\SteelSeries Arctis Nova 3 Gaming RGB Noise Cancelling Black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\SteelSeries Rival 600 TrueMove3 Dual Optical Sensor RGB Black Gaming.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\SteelSeries Rival 600 TrueMove3 Dual Optical Sensor RGB Black Gaming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Viper G11 Black Gaming Chair.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Viper G11 Black Gaming Chair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bessy\\source\\repos\\PCPortal\\PCPortal\\wwwroot\\product-photos\\Viper G4 Pink White Gaming Chair.jpg",
+      "PackagePath": "staticwebassets\\product-photos\\Viper G4 Pink White Gaming Chair.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PCPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.PCPortal.props",
+      "PackagePath": "build\\PCPortal.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PCPortal.props",
+      "PackagePath": "buildMultiTargeting\\PCPortal.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.PCPortal.props",
+      "PackagePath": "buildTransitive\\PCPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
